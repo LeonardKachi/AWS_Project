@@ -42,7 +42,6 @@ In this architecture, a public-facing Application Load Balancer forwards client 
 - Place them in DB subnet group created above.
 
 ## Step 7: Create Test App Server, Install Packages, Test Connections
-- [Test App-Server Commands](https://github.com/LeonardKachi/AWS_Project-1/main/app-server-commands)
 - Create AMI.
 - Create launch template using AMI.
 - Create target group.
@@ -51,7 +50,6 @@ In this architecture, a public-facing Application Load Balancer forwards client 
 - Edit `nginx.conf` file in local system by adding Internal-LB-DNS & upload the file in S3.
 
 ## Step 8: Create Test Web Server, Install Packages (Nginx, Node.js (React)), Test Connections
-- [Test Web-Server Commands](https://github.com/LeonardKachi/AWS_Project-1/main/web-server-commands)
 - Create AMI.
 - Create launch template using AMI.
 - Create target group.
